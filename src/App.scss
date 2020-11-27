@@ -1,0 +1,197 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  width: 30rem;
+  pointer-events: none;
+  display: inline-block;
+}
+
+.App-top-body {
+  background-image: url("/images/cleaning-home.png");
+  background-size: cover;
+  height: 52rem;
+
+  .Top-body-content {
+    position: sticky;
+    top: 1rem;
+    margin-bottom: 3rem;
+
+    img {
+      color: white;
+      top: 1rem;
+      text-align: center;
+      padding-left: 84%;
+      margin: auto;
+      width: 11rem;
+    }
+
+    p {
+      color: rgb(179, 149, 85);
+      padding-left: 84%;
+      margin-top: -2rem;
+      font-size: 0.875rem;
+    }
+  }
+}
+
+.App-main-body {
+  background-color: #323232;
+  min-height: 100vh;
+  color: white;
+
+  .contact-form {
+    .input-div {
+      border: solid 2.5px;
+      border-image: linear-gradient(to right, rgba(221, 175, 82, 0.74), rgba(221, 175, 82, 0.74), rgba(218, 199, 134, 1),rgba(233, 191, 106, 0.74), rgba(255, 246, 167, 1), rgba(255, 246, 167, 1)) 5;
+      width: 22rem;
+      margin: 0.75rem 0;
+      display: inline-block;
+
+      .input {
+        display: block;
+        width: 20rem;
+        background-color: transparent;
+        border-color: rgba(221, 184, 107, 0.52);
+        margin: 0.35rem 0.25rem 0.35rem 0.35rem;
+        padding: 0.5rem;
+        color: white;
+        font-size: 1.5rem;
+        border: solid 2.5px;
+        border-image: linear-gradient(to right, rgba(221, 175, 82, 0.74), rgba(221, 175, 82, 0.74), rgba(218, 199, 134, 1),rgba(233, 191, 106, 0.74), rgba(255, 246, 167, 1), rgba(255, 246, 167, 1)) 5;
+      }
+    }
+
+    .input::placeholder {
+      color: white;
+    }
+
+    input:focus {
+      outline-color: red;
+    }
+
+    textarea {
+      display: block;
+      background-color: transparent;
+      border-color: rgba(221, 184, 107, 0.52);
+      padding: 0.5rem;
+      color: white;
+      font-size: 1.5rem;
+      margin: 1rem;
+    }
+
+    textarea::placeholder {
+      color: white;
+    }
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.accordion {
+  $midnight: #2c3e50;
+  $clouds: #ecf0f1;
+  padding-bottom: 2rem;;
+  margin: auto;
+  width: 48rem;
+  margin-top: 5rem;
+  display: inline-block;
+  vertical-align: top;
+
+  .no-visibility {
+    visibility: hidden;
+  }
+
+  // General
+  body {
+    color: $midnight;
+    background: $clouds;
+    padding: 0 1em 1em;
+  }
+  h1 {
+    margin: 0;
+    line-height: 2;
+    text-align: center;
+  }
+  h2 {
+    margin: 0 0 .5em;
+    font-weight: normal;
+  }
+
+  // Layout
+  .row {
+    display:flex;
+    .col {
+      flex:1;
+      &:last-child {
+        margin-left: 1em;
+      }
+    }
+  }
+  /* Accordion styles */
+  .tabs {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
+  }
+  .tab {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+    &-label {
+      display: flex;
+      justify-content: space-between;
+      padding: 1em;
+      background: $midnight;
+      font-weight: bold;
+      cursor: pointer;
+      /* Icon */
+      &:hover {
+        background: darken($midnight, 10%);
+      }
+      &::after {
+        content: "\276F";
+        width: 1em;
+        height: 1em;
+        text-align: center;
+        transition: all .35s;
+      }
+    }
+    &-content {
+      max-height: 0;
+      padding: 0 1em;
+      color: $midnight;
+      background: transparent;
+      transition: all .35s;
+    }
+    &-close {
+      display: flex;
+      justify-content: flex-end;
+      padding: 1em;
+      font-size: 0.75em;
+      background: $midnight;
+      cursor: pointer;
+      &:hover {
+        background: darken($midnight, 10%);
+      }
+    }
+  }
+
+  // :checked
+  input:checked {
+    + .tab-label {
+      background: darken($midnight, 10%);
+      &::after {
+        transform: rotate(90deg);
+      }
+    }
+    ~ .tab-content {
+      max-height: 25rem;
+      padding: 1em;
+    }
+  }
+}
