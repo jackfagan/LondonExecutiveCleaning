@@ -41,34 +41,65 @@
   min-height: 100vh;
   color: white;
 
-  .contact-form {
-    .input-div {
-      border: solid 2.5px;
-      border-image: linear-gradient(to right, rgba(221, 175, 82, 0.74), rgba(221, 175, 82, 0.74), rgba(218, 199, 134, 1),rgba(233, 191, 106, 0.74), rgba(255, 246, 167, 1), rgba(255, 246, 167, 1)) 5;
-      width: 22rem;
-      margin: 0.75rem 0;
-      display: inline-block;
+  .about-us {
+    padding: 1rem 8rem;
+  }
+
+  .contact-div {
+    position: relative;
+
+    hr {
+      width: 90%;
+      border-color: rgb(179, 149, 85);
+    }
+
+    h1 {
+      font-weight: 300;
+      width: 15rem;
+      z-index: 5;
+      position: absolute;
+      top: 3.5rem;
+      left: 11.5rem;
+      color: rgb(179, 149, 85);
+    }
+
+    .contact-form {
+      .input-div {
+        border: solid 2.5px;
+        border-image: linear-gradient(to right, rgba(221, 175, 82, 0.74), rgba(221, 175, 82, 0.74), #dac786, rgba(233, 191, 106, 0.74), #fff6a7, #fff6a7) 5;
+        width: 20rem;
+        margin: 0.75rem 3rem 0rem 0rem;
+        display: inline-block;
+
+        .input {
+          display: block;
+          width: 18rem;
+          background-color: transparent;
+          border-color: rgba(221, 184, 107, 0.52);
+          margin: 0.35rem 0.25rem 0.35rem 0.35rem;
+          padding: 0.5rem;
+          color: rgb(179, 149, 85);
+          font-size: 1.5rem;
+          border: solid 2.5px;
+          border-image: linear-gradient(to right, rgba(221, 175, 82, 0.74), rgba(221, 175, 82, 0.74), rgba(218, 199, 134, 1),rgba(233, 191, 106, 0.74), rgba(255, 246, 167, 1), rgba(255, 246, 167, 1)) 5;
+        }
+     }
+   }
+
+    .input-div.message-box {
+      width: 43rem;
 
       .input {
-        display: block;
-        width: 20rem;
-        background-color: transparent;
-        border-color: rgba(221, 184, 107, 0.52);
-        margin: 0.35rem 0.25rem 0.35rem 0.35rem;
-        padding: 0.5rem;
-        color: white;
-        font-size: 1.5rem;
-        border: solid 2.5px;
-        border-image: linear-gradient(to right, rgba(221, 175, 82, 0.74), rgba(221, 175, 82, 0.74), rgba(218, 199, 134, 1),rgba(233, 191, 106, 0.74), rgba(255, 246, 167, 1), rgba(255, 246, 167, 1)) 5;
+        width: 41rem;
       }
     }
 
     .input::placeholder {
-      color: white;
+      color: rgb(179, 149, 85);
     }
 
-    input:focus {
-      outline-color: red;
+    .input:focus {
+      outline: none;
     }
 
     textarea {
@@ -85,6 +116,29 @@
       color: white;
     }
   }
+
+  .App-logo {
+    padding-top: 1rem;
+  }
+
+  .service-block {
+    padding-top: 5rem;
+
+    .service-wrapper {
+      max-width: 30%;
+      margin: auto;
+      display: inline-block;
+
+      .service-icon {
+        filter: brightness(0) invert(1);
+        width: 6rem;
+      }
+
+      .service-text {
+        padding: 1rem;
+      }
+    }
+  }
 }
 
 .App-link {
@@ -98,7 +152,7 @@
   padding-bottom: 2rem;;
   margin: auto;
   width: 48rem;
-  margin-top: 5rem;
+  margin-top: 3.5rem;
   display: inline-block;
   vertical-align: top;
 
