@@ -8,6 +8,14 @@
   display: inline-block;
 }
 
+@media (max-device-width: 768px) {
+  .App-logo {
+    width: 100rem;
+    pointer-events: none;
+    display: inline-block;
+  }
+}
+
 .App-top-body {
   background-image: url("/images/cleaning-home.png");
   background-size: cover;
@@ -28,7 +36,7 @@
     }
 
     p {
-      color: rgb(179, 149, 85);
+      color: #d0ae66;
       padding-left: 84%;
       margin-top: -2rem;
       font-size: 0.875rem;
@@ -50,7 +58,7 @@
 
     hr {
       width: 90%;
-      border-color: rgb(179, 149, 85);
+      border-color: #d0ae66;
     }
 
     h1 {
@@ -60,7 +68,7 @@
       position: absolute;
       top: 3.5rem;
       left: 11.5rem;
-      color: rgb(179, 149, 85);
+      color: #d0ae66;
     }
 
     .contact-form {
@@ -75,10 +83,9 @@
           display: block;
           width: 18rem;
           background-color: transparent;
-          border-color: rgba(221, 184, 107, 0.52);
           margin: 0.35rem 0.25rem 0.35rem 0.35rem;
           padding: 0.5rem;
-          color: rgb(179, 149, 85);
+          color: #d0ae66;
           font-size: 1.5rem;
           border: solid 2.5px;
           border-image: linear-gradient(to right, rgba(221, 175, 82, 0.74), rgba(221, 175, 82, 0.74), rgba(218, 199, 134, 1),rgba(233, 191, 106, 0.74), rgba(255, 246, 167, 1), rgba(255, 246, 167, 1)) 5;
@@ -86,16 +93,37 @@
      }
    }
 
+   .button {
+      background-color: transparent;
+      color: #d0ae66;
+      padding: 32px 64px;
+      text-decoration: none;
+      margin: 1rem 0rem 0rem 0rem;
+      cursor: pointer;
+      border: solid 2.5px;
+      border-image: linear-gradient(to right, rgba(221, 175, 82, 0.74), rgba(221, 175, 82, 0.74), #dac786, rgba(233, 191, 106, 0.74), #fff6a7, #fff6a7) 5;
+      font-size: 1rem;
+      transition: all .5s ease-in;
+      position: relative;
+      top: 0.75rem;
+    }
+
+    .button:hover {
+      background-color: #d0ae66;
+      color: #323232;
+    }
+
     .input-div.message-box {
-      width: 43rem;
+      width: 33rem;
+      margin: 0.75rem 2rem 0rem -4rem;
 
       .input {
-        width: 41rem;
+        width: 31rem;
       }
     }
 
     .input::placeholder {
-      color: rgb(179, 149, 85);
+      color: #d0ae66;
     }
 
     .input:focus {
@@ -125,7 +153,7 @@
     padding-top: 5rem;
 
     .service-wrapper {
-      max-width: 30%;
+      max-width: 90%;
       margin: auto;
       display: inline-block;
 
@@ -136,6 +164,12 @@
 
       .service-text {
         padding: 1rem;
+      }
+    }
+
+    @media (min-width: 800px) {
+      .service-wrapper {
+        max-width: 30%;
       }
     }
   }

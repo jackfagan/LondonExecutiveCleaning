@@ -78,7 +78,7 @@ function App() {
                             <textarea className="input is-d-block" type="textarea" placeholder="Message" name="message" />
                           </div>
                         </label>
-                        <input type="submit" value="Submit" />
+                        <input className="button" type="submit" value="Submit" />
                       </form>
             {/* <div className="row">
               <div className="col">
@@ -126,6 +126,12 @@ function App() {
               </div>
             </div> */}
           </div>
+          <hr />
+
+          <br />
+          <p>Any clenaing rules will go here lorem ipsum dolor sit amet cleaning rules please here test dummy text all cleaning rules text bottom footer lorem ipsum dolor sit amet</p>
+          <br />
+          <br />
         </div>
       </div>
    </div>
