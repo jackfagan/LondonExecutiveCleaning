@@ -3,6 +3,8 @@ import './App.scss';
 import virus from './images/virus.svg';
 import rating from './images/rating.svg';
 import calendar from './images/calendar.svg';
+import ContactForm from './components/ContactForm';
+
 
 function App() {
   return (
@@ -134,6 +136,8 @@ function App() {
           <br />
         </div>
       </div>
+
+      <ContactForm />
    </div>
   );
 }
