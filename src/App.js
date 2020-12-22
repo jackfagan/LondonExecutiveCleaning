@@ -53,92 +53,15 @@ function App() {
           <hr />
           <h1>Contact Us</h1>
           <img src={logo} className="App-logo" alt="logo" />
-          <div className="accordion">
-          <form className="contact-form">
-                        <label>
-                          <div className="input-div">
-                            <input className="input is-d-block" type="text" placeholder="Full Name" name="name" />
-                          </div>
-                        </label>
-                        <label>
-                          <div className="input-div">
-                            <input className="input is-d-block" type="text" placeholder="Email" name="email" />
-                          </div>
-                        </label>
-                        <label>
-                          <div className="input-div">
-                            <input className="input is-d-block" type="tel" placeholder="Number" name="number" />
-                          </div>
-                        </label>
-                        <label>
-                          <div className="input-div">
-                            <input className="input is-d-block" type="text" placeholder="Company" name="company" />
-                          </div>
-                        </label>
-                        <label>
-                          <div className="input-div message-box">
-                            <textarea className="input is-d-block" type="textarea" placeholder="Message" name="message" />
-                          </div>
-                        </label>
-                        <input className="button" type="submit" value="Submit" />
-                      </form>
-            {/* <div className="row">
-              <div className="col">
-                <div className="tabs">
-                  <div className="tab">
-                    <input className="no-visibility" type="checkbox" id="chck1" />
-                    <label className="tab-label" for="chck1">Contact Form</label>
-                    <div className="tab-content">
-                      <form className="contact-form">
-                        <label>
-                          <div className="input-div">
-                            <input className="input is-d-block" type="text" placeholder="Full Name" name="name" />
-                          </div>
-                        </label>
-                        <label>
-                          <div className="input-div">
-                            <input className="input is-d-block" type="text" placeholder="Email" name="email" />
-                          </div>
-                        </label>
-                        <label>
-                          <div className="input-div">
-                            <input className="input is-d-block" type="tel" placeholder="Number" name="number" />
-                          </div>
-                        </label>
-                        <label>
-                          <div className="input-div">
-                            <input className="input is-d-block" type="text" placeholder="Company" name="company" />
-                          </div>
-                        </label>
-                        <label>
-                          <div className="input-div">
-                            <input className="input is-d-block" type="text" placeholder="Message Sibject" name="subject" />
-                          </div>
-                        </label>
-                        <label>
-                          <div className="input-div">
-                            <textarea className="input is-d-block" type="textarea" placeholder="Message" name="message" />
-                          </div>
-                        </label>
-                        <input type="submit" value="Submit" />
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-          </div>
+          <ContactForm />
           <hr />
-
           <br />
           <p>Any clenaing rules will go here lorem ipsum dolor sit amet cleaning rules please here test dummy text all cleaning rules text bottom footer lorem ipsum dolor sit amet</p>
           <br />
           <br />
         </div>
       </div>
-
-      <ContactForm />
-   </div>
+     </div>
   );
 }
 

@@ -27,6 +27,7 @@ class ContactForm extends Component {
     this.state = {
       name: '',
       email: '',
+      number: '',
       subject: '',
       message: '',
       formErrors: {
@@ -42,12 +43,13 @@ class ContactForm extends Component {
 
     if (formValid(this.state)) {
       // Handle form validation success
-      const { name, email, subject, message } = this.state;
+      const { name, email, number, subject, message } = this.state;
 
       // Set template params
       let templateParams = {
         name: name,
         email: email,
+        number: number,
         subject: subject,
         message: message,
       };
@@ -57,6 +59,7 @@ class ContactForm extends Component {
         --SUBMITTING--
         Name: ${name}
         Email: ${email}
+        Number: ${number}
         Subject: ${subject}
         Message: ${message}
       `);
@@ -74,6 +77,7 @@ class ContactForm extends Component {
       name: '',
       email: '',
       subject: '',
+      number: '',
       message: '',
     });
   }
@@ -108,73 +112,91 @@ class ContactForm extends Component {
     return (
       <div className='ContactForm'>
         <form id='contact-form' onSubmit={this.handleSubmit} noValidate>
-          <div className='row'>
-            <div className='col-6'>
-              <input
-                type='text'
-                name='name'
-                value={this.state.name}
-                className={`form-control formInput ${formErrors.name.length > 0 ? 'error' : null}`}
-                onChange={this.handleChange}
-                placeholder='Name'
-                noValidate
-              ></input>
-              {formErrors.name.length > 0 && (
-                <span className='errorMessage'>{formErrors.name}</span>
-              )}
-            </div>
+            <label>
+              <div className="input-div">
+                  <input
+                  type='text'
+                  name='name'
+                  value={this.state.name}
+                  className={`form-control formInput ${formErrors.name.length > 0 ? 'error' : null}`}
+                  onChange={this.handleChange}
+                  placeholder='Name'
+                  noValidate
+                ></input>
+                {formErrors.name.length > 0 && (
+                  <span className='errorMessage'>{formErrors.name}</span>
+                )}
+              </div>
+            </label>
 
-            <div className='col-6'>
-              <input
-                type='email'
-                name='email'
-                value={this.state.email}
-                className={`form-control formInput ${formErrors.email.length > 0 ? 'error' : null}`}
-                onChange={this.handleChange}
-                placeholder='Email'
-                noValidate
-              ></input>
-              {formErrors.email.length > 0 && (
-                <span className='errorMessage'>{formErrors.email}</span>
-              )}
-            </div>
-          </div>
+            <label>
+              <div className="input-div">
+                <input
+                  type='email'
+                  name='email'
+                  value={this.state.email}
+                  className={`form-control formInput ${formErrors.email.length > 0 ? 'error' : null}`}
+                  onChange={this.handleChange}
+                  placeholder='Email'
+                  noValidate
+                ></input>
+                {formErrors.email.length > 0 && (
+                  <span className='errorMessage'>{formErrors.email}</span>
+                )}
+              </div>
+            </label>
 
-          <div className='row'>
-            <div className='col-6'>
-              <input
-                type='subject'
-                name='subject'
-                value={this.state.subject}
-                className={`form-control formInput ${
-                  formErrors.subject.length > 0 ? 'error' : null
-                }`}
-                onChange={this.handleChange}
-                placeholder='Subject'
-                noValidate
-              ></input>
-              {formErrors.subject.length > 0 && (
-                <span className='errorMessage'>{formErrors.subject}</span>
-              )}
-            </div>
+            <label>
+              <div className="input-div">
+                <input
+                  type='tel'
+                  name='number'
+                  value={this.state.number}
+                  className={`form-control formInput`}
+                  onChange={this.handleChange}
+                  placeholder='Number'
+                  noValidate
+                ></input>
+              </div>
+            </label>
 
-            <div className='col-6'>
-              <textarea
-                rows='5'
-                name='message'
-                value={this.state.message}
-                className={`form-control formInput ${
-                  formErrors.message.length > 0 ? 'error' : null
-                }`}
-                onChange={this.handleChange}
-                placeholder='Message'
-                noValidate
-              ></textarea>
-              {formErrors.message.length > 0 && (
-                <span className='errorMessage'>{formErrors.message}</span>
-              )}
-            </div>
-          </div>
+            <label>
+              <div className='input-div'>
+                <input
+                  type='subject'
+                  name='subject'
+                  value={this.state.subject}
+                  className={`form-control formInput ${
+                    formErrors.subject.length > 0 ? 'error' : null
+                  }`}
+                  onChange={this.handleChange}
+                  placeholder='Subject'
+                  noValidate
+                ></input>
+                {formErrors.subject.length > 0 && (
+                  <span className='errorMessage'>{formErrors.subject}</span>
+                )}
+              </div>
+            </label>
+
+            <label>
+              <div className='input-div'>
+                <textarea
+                  rows='5'
+                  name='message'
+                  value={this.state.message}
+                  className={`form-control formInput ${
+                    formErrors.message.length > 0 ? 'error' : null
+                  }`}
+                  onChange={this.handleChange}
+                  placeholder='Message'
+                  noValidate
+                ></textarea>
+                {formErrors.message.length > 0 && (
+                  <span className='errorMessage'>{formErrors.message}</span>
+                )}
+              </div>
+            </label>  
           <button className='submit-btn' type='submit'>
             Submit
           </button>

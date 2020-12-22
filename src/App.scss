@@ -3,22 +3,21 @@
 }
 
 .App-logo {
-  width: 30rem;
+  width: 100%;
   pointer-events: none;
-  display: inline-block;
-}
+  display: block;
 
-@media (max-device-width: 768px) {
-  .App-logo {
-    width: 100rem;
-    pointer-events: none;
+  @media (min-width: 1000px) {
+    width: 30rem;
     display: inline-block;
   }
 }
 
+
 .App-top-body {
   background-image: url("/images/cleaning-home.png");
   background-size: cover;
+  background-position: 50% 50%;
   height: 52rem;
 
   .Top-body-content {
@@ -30,16 +29,26 @@
       color: white;
       top: 1rem;
       text-align: center;
-      padding-left: 84%;
+      padding-left: 50%;
       margin: auto;
       width: 11rem;
     }
 
     p {
       color: #d0ae66;
-      padding-left: 84%;
+      padding-left: 50%;
       margin-top: -2rem;
       font-size: 0.875rem;
+    }
+
+    @media (min-width: 1200px) {
+      img {
+        padding-left: 84%;
+      }
+
+      p {
+        padding-left: 84%;
+      }
     }
   }
 }
@@ -50,7 +59,11 @@
   color: white;
 
   .about-us {
-    padding: 1rem 8rem;
+    padding: 1rem 0.5rem;
+
+    @media (min-width: 1200px) {
+      padding: 1rem 8rem;
+    }
   }
 
   .contact-div {
@@ -63,40 +76,62 @@
 
     h1 {
       font-weight: 300;
-      width: 15rem;
+      width: auto;
       z-index: 5;
       position: absolute;
       top: 3.5rem;
-      left: 11.5rem;
       color: #d0ae66;
+      margin: auto;
+      left: 0;
+      right: 0;
+
+      @media (min-width: 1000px) {
+        width: 15rem;
+      }
     }
 
-    .contact-form {
+    .ContactForm {
+      margin-top: -4rem;
+      margin-bottom: 3rem;
+
+      @media (min-width: 1000px) {
+        margin-top: none;
+      }
+
       .input-div {
+        margin: 0.75rem auto;
         border: solid 2.5px;
         border-image: linear-gradient(to right, rgba(221, 175, 82, 0.74), rgba(221, 175, 82, 0.74), #dac786, rgba(233, 191, 106, 0.74), #fff6a7, #fff6a7) 5;
-        width: 20rem;
-        margin: 0.75rem 3rem 0rem 0rem;
+        width: 18rem;
         display: inline-block;
 
-        .input {
+        .formInput {
           display: block;
-          width: 18rem;
+          width: 16rem;
           background-color: transparent;
           margin: 0.35rem 0.25rem 0.35rem 0.35rem;
           padding: 0.5rem;
-          color: #d0ae66;
+          color: white;
           font-size: 1.5rem;
           border: solid 2.5px;
           border-image: linear-gradient(to right, rgba(221, 175, 82, 0.74), rgba(221, 175, 82, 0.74), rgba(218, 199, 134, 1),rgba(233, 191, 106, 0.74), rgba(255, 246, 167, 1), rgba(255, 246, 167, 1)) 5;
         }
+
+        @media (min-width: 1000px) {
+          margin: 0.75rem 3rem 0rem 0rem;
+          width: 20rem;
+
+          .formInput {
+            width: 18rem;
+          }
+        }
      }
    }
 
-   .button {
+   .submit-btn {
       background-color: transparent;
       color: #d0ae66;
-      padding: 32px 64px;
+      padding: 40px 100px;
       text-decoration: none;
       margin: 1rem 0rem 0rem 0rem;
       cursor: pointer;
@@ -108,7 +143,7 @@
       top: 0.75rem;
     }
 
-    .button:hover {
+    .submit-btn:hover {
       background-color: #d0ae66;
       color: #323232;
     }
@@ -117,16 +152,16 @@
       width: 33rem;
       margin: 0.75rem 2rem 0rem -4rem;
 
-      .input {
+      .formInput {
         width: 31rem;
       }
     }
 
-    .input::placeholder {
-      color: #d0ae66;
+    .formInput::placeholder {
+      color: white;
     }
 
-    .input:focus {
+    .formInput:focus {
       outline: none;
     }
 
@@ -167,7 +202,7 @@
       }
     }
 
-    @media (min-width: 800px) {
+    @media (min-width: 1000px) {
       .service-wrapper {
         max-width: 30%;
       }
