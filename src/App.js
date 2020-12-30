@@ -51,8 +51,10 @@ function App() {
 
         <div className="contact-div">
           <hr />
-          <h1>Contact Us</h1>
-          <img src={logo} className="App-logo" alt="logo" />
+          <div className="contact-title">
+            <h1>Contact Us</h1>
+            <img src={logo} className="App-logo" alt="logo" />
+          </div>  
           <ContactForm />
           <hr />
           <br />

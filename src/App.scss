@@ -90,42 +90,68 @@
       }
     }
 
+    .contact-title {
+      width: 100%;
+      display: block;
+      position: relative;
+
+      @media (min-width: 1000px) {
+        width: 35%;
+        display: inline-block;
+      }
+    }
+
     .ContactForm {
       margin-top: -4rem;
       margin-bottom: 3rem;
+      width: 100%;
+      display: block;
+      position: relative;
+
 
       @media (min-width: 1000px) {
-        margin-top: none;
+        margin-top: 3rem;
+        width: 60%;
+        display: inline-block;
+        vertical-align: top;
       }
 
-      .input-div {
-        margin: 0.75rem auto;
-        border: solid 2.5px;
-        border-image: linear-gradient(to right, rgba(221, 175, 82, 0.74), rgba(221, 175, 82, 0.74), #dac786, rgba(233, 191, 106, 0.74), #fff6a7, #fff6a7) 5;
-        width: 18rem;
-        display: inline-block;
-
-        .formInput {
-          display: block;
-          width: 16rem;
-          background-color: transparent;
-          margin: 0.35rem 0.25rem 0.35rem 0.35rem;
-          padding: 0.5rem;
-          color: white;
-          font-size: 1.5rem;
-          border: solid 2.5px;
-          border-image: linear-gradient(to right, rgba(221, 175, 82, 0.74), rgba(221, 175, 82, 0.74), rgba(218, 199, 134, 1),rgba(233, 191, 106, 0.74), rgba(255, 246, 167, 1), rgba(255, 246, 167, 1)) 5;
+      .form-input-split {
+        @media (min-width: 1000px) {
+          width: 50%;
+          display: inline-block;
+          vertical-align: top;
         }
 
-        @media (min-width: 1000px) {
-          margin: 0.75rem 3rem 0rem 0rem;
-          width: 20rem;
+        .input-div {
+          margin: 0.75rem auto;
+          border: solid 2.5px;
+          border-image: linear-gradient(to right, rgba(221, 175, 82, 0.74), rgba(221, 175, 82, 0.74), #dac786, rgba(233, 191, 106, 0.74), #fff6a7, #fff6a7) 5;
+          width: 18rem;
+          display: inline-block;
 
           .formInput {
-            width: 18rem;
+            display: block;
+            width: 16rem;
+            background-color: transparent;
+            margin: 0.35rem 0.25rem 0.35rem 0.35rem;
+            padding: 0.5rem;
+            color: white;
+            font-size: 1.5rem;
+            border: solid 2.5px;
+            border-image: linear-gradient(to right, rgba(221, 175, 82, 0.74), rgba(221, 175, 82, 0.74), rgba(218, 199, 134, 1),rgba(233, 191, 106, 0.74), rgba(255, 246, 167, 1), rgba(255, 246, 167, 1)) 5;
           }
-        }
-     }
+
+          @media (min-width: 1000px) {
+            margin: 0.75rem 3rem 0rem 0rem;
+            width: 20rem;
+
+            .formInput {
+              width: 18rem;
+            }
+          }
+      }
+    }
    }
 
    .submit-btn {

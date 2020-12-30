@@ -112,6 +112,7 @@ class ContactForm extends Component {
     return (
       <div className='ContactForm'>
         <form id='contact-form' onSubmit={this.handleSubmit} noValidate>
+          <div className="form-input-split">
             <label>
               <div className="input-div">
                   <input
@@ -159,7 +160,8 @@ class ContactForm extends Component {
                 ></input>
               </div>
             </label>
-
+          </div>
+          <div className="form-input-split">
             <label>
               <div className='input-div'>
                 <input
@@ -196,7 +198,8 @@ class ContactForm extends Component {
                   <span className='errorMessage'>{formErrors.message}</span>
                 )}
               </div>
-            </label>  
+            </label> 
+          </div> 
           <button className='submit-btn' type='submit'>
             Submit
           </button>
