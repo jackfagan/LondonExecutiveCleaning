@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1b8a411.chunk.css",
-    "main.js": "/static/js/main.c89af7ea.chunk.js",
-    "main.js.map": "/static/js/main.c89af7ea.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b12d546d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b12d546d.js.map",
-    "static/js/2.85c0828e.chunk.js": "/static/js/2.85c0828e.chunk.js",
-    "static/js/2.85c0828e.chunk.js.map": "/static/js/2.85c0828e.chunk.js.map",
-    "static/js/3.70f462cb.chunk.js": "/static/js/3.70f462cb.chunk.js",
-    "static/js/3.70f462cb.chunk.js.map": "/static/js/3.70f462cb.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.b1b8a411.chunk.css.map": "/static/css/main.b1b8a411.chunk.css.map",
-    "static/js/2.85c0828e.chunk.js.LICENSE.txt": "/static/js/2.85c0828e.chunk.js.LICENSE.txt"
+    "main.css": "/LondonExecutiveCleaning/static/css/main.27deb1db.chunk.css",
+    "main.js": "/LondonExecutiveCleaning/static/js/main.8f78551e.chunk.js",
+    "main.js.map": "/LondonExecutiveCleaning/static/js/main.8f78551e.chunk.js.map",
+    "runtime-main.js": "/LondonExecutiveCleaning/static/js/runtime-main.69515ff9.js",
+    "runtime-main.js.map": "/LondonExecutiveCleaning/static/js/runtime-main.69515ff9.js.map",
+    "static/js/2.a40ee425.chunk.js": "/LondonExecutiveCleaning/static/js/2.a40ee425.chunk.js",
+    "static/js/2.a40ee425.chunk.js.map": "/LondonExecutiveCleaning/static/js/2.a40ee425.chunk.js.map",
+    "static/js/3.c83fde1a.chunk.js": "/LondonExecutiveCleaning/static/js/3.c83fde1a.chunk.js",
+    "static/js/3.c83fde1a.chunk.js.map": "/LondonExecutiveCleaning/static/js/3.c83fde1a.chunk.js.map",
+    "index.html": "/LondonExecutiveCleaning/index.html",
+    "static/css/main.27deb1db.chunk.css.map": "/LondonExecutiveCleaning/static/css/main.27deb1db.chunk.css.map",
+    "static/js/2.a40ee425.chunk.js.LICENSE.txt": "/LondonExecutiveCleaning/static/js/2.a40ee425.chunk.js.LICENSE.txt",
+    "static/media/calendar.2fd75d1b.svg": "/LondonExecutiveCleaning/static/media/calendar.2fd75d1b.svg",
+    "static/media/App.scss": "/LondonExecutiveCleaning/static/media/cleaning-home.a6d53762.png",
+    "static/media/logo.bb9d16eb.PNG": "/LondonExecutiveCleaning/static/media/logo.bb9d16eb.PNG",
+    "static/media/rating.dfe1686e.svg": "/LondonExecutiveCleaning/static/media/rating.dfe1686e.svg",
+    "static/media/virus.8bb40686.svg": "/LondonExecutiveCleaning/static/media/virus.8bb40686.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b12d546d.js",
-    "static/js/2.85c0828e.chunk.js",
-    "static/css/main.b1b8a411.chunk.css",
-    "static/js/main.c89af7ea.chunk.js"
+    "static/js/runtime-main.69515ff9.js",
+    "static/js/2.a40ee425.chunk.js",
+    "static/css/main.27deb1db.chunk.css",
+    "static/js/main.8f78551e.chunk.js"
   ]
 }

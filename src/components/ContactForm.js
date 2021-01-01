@@ -114,7 +114,7 @@ class ContactForm extends Component {
         <form id='contact-form' onSubmit={this.handleSubmit} noValidate>
           <div className="form-input-split">
             <label>
-              <div className="input-div">
+              <div className="input-div high-columns">
                   <input
                   type='text'
                   name='name'
@@ -131,7 +131,7 @@ class ContactForm extends Component {
             </label>
 
             <label>
-              <div className="input-div">
+              <div className="input-div high-columns">
                 <input
                   type='email'
                   name='email'

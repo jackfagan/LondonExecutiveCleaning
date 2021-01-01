@@ -110,11 +110,19 @@
 
 
       @media (min-width: 1000px) {
-        margin-top: 3rem;
+        margin-top: 2rem;
+        width: 60%;
+        display: block;
+        vertical-align: top;
+      }
+
+      @media (min-width: 2500px) {
+        margin-top: 2rem;
         width: 60%;
         display: inline-block;
         vertical-align: top;
       }
+
 
       .form-input-split {
         @media (min-width: 1000px) {
@@ -146,6 +154,10 @@
             margin: 0.75rem 3rem 0rem 0rem;
             width: 20rem;
 
+            &.high-columns {
+              margin: 0.75rem 3rem 1.25rem 0rem;
+            }
+
             .formInput {
               width: 18rem;
             }
@@ -167,6 +179,9 @@
       transition: all .5s ease-in;
       position: relative;
       top: 0.75rem;
+      @media (min-width: 1000px) {
+        margin: 2rem 0rem 0rem 0rem;
+      }
     }
 
     .submit-btn:hover {
