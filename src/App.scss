@@ -26,7 +26,7 @@
     margin-bottom: 3rem;
 
     img {
-      color: white;
+      color: rgb(189, 189, 189);
       top: 1rem;
       text-align: center;
       padding-left: 50%;
@@ -56,7 +56,7 @@
 .App-main-body {
   background-color: #323232;
   min-height: 100vh;
-  color: white;
+  color: rgb(189, 189, 189);
 
   .about-us {
     padding: 1rem 0.5rem;
@@ -144,7 +144,7 @@
             background-color: transparent;
             margin: 0.35rem 0.25rem 0.35rem 0.35rem;
             padding: 0.5rem;
-            color: white;
+            color: rgb(189, 189, 189);
             font-size: 1.5rem;
             border: solid 2.5px;
             border-image: linear-gradient(to right, rgba(221, 175, 82, 0.74), rgba(221, 175, 82, 0.74), rgba(218, 199, 134, 1),rgba(233, 191, 106, 0.74), rgba(255, 246, 167, 1), rgba(255, 246, 167, 1)) 5;
@@ -199,7 +199,7 @@
     }
 
     .formInput::placeholder {
-      color: white;
+      color: rgb(189, 189, 189);
     }
 
     .formInput:focus {
@@ -211,13 +211,13 @@
       background-color: transparent;
       border-color: rgba(221, 184, 107, 0.52);
       padding: 0.5rem;
-      color: white;
+      color: rgb(189, 189, 189);
       font-size: 1.5rem;
       margin: 1rem;
     }
 
     textarea::placeholder {
-      color: white;
+      color: rgb(189, 189, 189);
     }
   }
 
@@ -304,7 +304,7 @@
   }
   .tab {
     width: 100%;
-    color: white;
+    color: rgb(189, 189, 189);
     overflow: hidden;
     &-label {
       display: flex;
