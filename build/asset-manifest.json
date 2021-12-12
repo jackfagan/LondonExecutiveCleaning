@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/LondonExecutiveCleaning/static/css/main.27deb1db.chunk.css",
-    "main.js": "/LondonExecutiveCleaning/static/js/main.8f78551e.chunk.js",
-    "main.js.map": "/LondonExecutiveCleaning/static/js/main.8f78551e.chunk.js.map",
+    "main.css": "/LondonExecutiveCleaning/static/css/main.47fba443.chunk.css",
+    "main.js": "/LondonExecutiveCleaning/static/js/main.82f441a8.chunk.js",
+    "main.js.map": "/LondonExecutiveCleaning/static/js/main.82f441a8.chunk.js.map",
     "runtime-main.js": "/LondonExecutiveCleaning/static/js/runtime-main.69515ff9.js",
     "runtime-main.js.map": "/LondonExecutiveCleaning/static/js/runtime-main.69515ff9.js.map",
     "static/js/2.a40ee425.chunk.js": "/LondonExecutiveCleaning/static/js/2.a40ee425.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.c83fde1a.chunk.js": "/LondonExecutiveCleaning/static/js/3.c83fde1a.chunk.js",
     "static/js/3.c83fde1a.chunk.js.map": "/LondonExecutiveCleaning/static/js/3.c83fde1a.chunk.js.map",
     "index.html": "/LondonExecutiveCleaning/index.html",
-    "static/css/main.27deb1db.chunk.css.map": "/LondonExecutiveCleaning/static/css/main.27deb1db.chunk.css.map",
+    "static/css/main.47fba443.chunk.css.map": "/LondonExecutiveCleaning/static/css/main.47fba443.chunk.css.map",
     "static/js/2.a40ee425.chunk.js.LICENSE.txt": "/LondonExecutiveCleaning/static/js/2.a40ee425.chunk.js.LICENSE.txt",
     "static/media/calendar.2fd75d1b.svg": "/LondonExecutiveCleaning/static/media/calendar.2fd75d1b.svg",
     "static/media/App.scss": "/LondonExecutiveCleaning/static/media/cleaning-home.a6d53762.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.69515ff9.js",
     "static/js/2.a40ee425.chunk.js",
-    "static/css/main.27deb1db.chunk.css",
-    "static/js/main.8f78551e.chunk.js"
+    "static/css/main.47fba443.chunk.css",
+    "static/js/main.82f441a8.chunk.js"
   ]
 }
