@@ -21,7 +21,7 @@ function App() {
       <div className="App-main-body">
         <div className="service-block">
           <div className="service-wrapper">
-            <img className="service-icon" src={virus} />
+            <img className="service-icon" src={virus} alt="description of image" />
             <div className="service-text">
               <h3>Corona Virus Cleaning</h3>
               <p>Corona Virus means clenaing services lorem ipsum dolor sit amet lorem ipsum dolor sit amet book now for covid safe spray clean</p>
@@ -29,14 +29,14 @@ function App() {
           </div> 
 
           <div className="service-wrapper">
-            <img className="service-icon" src={calendar} />
+            <img className="service-icon" src={calendar} alt="description of image"/>
             <div className="service-text">
               <h3>7 Day Availability</h3>
               <p>Corona Virus means clenaing services lorem ipsum dolor sit amet lorem ipsum dolor sit amet book now for covid safe spray clean</p>
             </div>          </div> 
 
           <div className="service-wrapper">
-            <img className="service-icon" src={rating} />
+            <img className="service-icon" src={rating} alt="description of image"/>
             <div className="service-text">
               <h3>10/10 Customer Satisfaction</h3>
               <p>Corona Virus means clenaing services lorem ipsum dolor sit amet lorem ipsum dolor sit amet book now for covid safe spray clean</p>
