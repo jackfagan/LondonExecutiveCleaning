@@ -1,10 +1,10 @@
 import logo from './images/logo.PNG';
 import './App.scss';
-import virus from './images/virus.svg';
-import rating from './images/rating.svg';
-import calendar from './images/calendar.svg';
+import school from './images/school.png';
+import office from './images/office-two.svg';
+import handshake from './images/handshake.png';
 import ContactForm from './components/ContactForm';
-
+import SpecialistCleaning from './components/SpecialistCleaning';
 
 function App() {
   return (
@@ -19,35 +19,40 @@ function App() {
         </div>
       </header>
       <div className="App-main-body">
+      <div className="about-us">
+          <p>London Executive is a young company in terms of incorporation, but we have decades of management experience across all aspects of cleaning.</p>
+          <p>London Executive are passionate in protecting our environment by using electric or hybrid vehicles, minimising waste, encouraging staff to travel green, and to ensure we are using environmentally friendly chemicals in all aspects of our cleaning. We are always open to new ideas to improve our carbon footprint.</p>
+        </div>
+
         <div className="service-block">
           <div className="service-wrapper">
-            <img className="service-icon" src={virus} alt="description of image" />
+            <img className="service-icon" src={school} alt="description of image" />
             <div className="service-text">
-              <h3>Corona Virus Cleaning</h3>
-              <p>Corona Virus means clenaing services lorem ipsum dolor sit amet lorem ipsum dolor sit amet book now for covid safe spray clean</p>
+              <h3>Education</h3>
+              <p>With the welfare of pupils and staff as a priority, at London Executive all members of staff must go through initial trial period, and they are trained, and security vetted to make sure they meet our high standards. From managing the cleaning of before and after school clubs, to the more specialist needs of holiday cleaning programs, we have the experience, resources and understanding to ensure we can match a service to your needs.</p>
             </div>
           </div> 
 
           <div className="service-wrapper">
-            <img className="service-icon" src={calendar} alt="description of image"/>
+            <img className="service-icon" src={office} alt="description of image"/>
             <div className="service-text">
-              <h3>7 Day Availability</h3>
-              <p>Corona Virus means clenaing services lorem ipsum dolor sit amet lorem ipsum dolor sit amet book now for covid safe spray clean</p>
-            </div>          </div> 
+              <h3>Offices</h3>
+              <p>Understanding the fundamentals of office cleaning, we at London Executive realise the importance to impress clients in every way when they visit your offices. During these uncertain times staff are trained to perform extra sanitising cleans throughout the day to ensure the safety and well-being of staff and visitors to your premises.                                        </p>
+             </div>
+          </div> 
 
           <div className="service-wrapper">
-            <img className="service-icon" src={rating} alt="description of image"/>
-            <div className="service-text">
-              <h3>10/10 Customer Satisfaction</h3>
-              <p>Corona Virus means clenaing services lorem ipsum dolor sit amet lorem ipsum dolor sit amet book now for covid safe spray clean</p>
+            <img className="service-icon" src={handshake} alt="description of image"/>
+            <div className="service-text desktop-padding-top">
+              <h3>End of tenancy</h3>
+              <p>At London Executive our service team are highly trained to deal with all
+types of end of tenancy cleans, following a strict checklist to ensure the new tenant enters
+a pristine home.</p>
             </div>
           </div> 
         </div> 
-        <div className="about-us">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
+ 
+ <SpecialistCleaning />
 
         <div className="contact-div">
           <hr />
@@ -58,7 +63,10 @@ function App() {
           <ContactForm />
           <hr />
           <br />
-          <p>Any clenaing rules will go here lorem ipsum dolor sit amet cleaning rules please here test dummy text all cleaning rules text bottom footer lorem ipsum dolor sit amet</p>
+          <div className="contact-footer">
+            <p className="center-left display-inline">VAT number 397 8317 38 - </p>
+            <p className="center-right display-inline">Company number 12563540 </p>
+          </div>
           <br />
           <br />
         </div>

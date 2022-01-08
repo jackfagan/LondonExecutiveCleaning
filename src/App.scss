@@ -56,13 +56,13 @@
 .App-main-body {
   background-color: #323232;
   min-height: 100vh;
-  color: rgb(189, 189, 189);
+  color: white;
 
   .about-us {
     padding: 1rem 0.5rem;
 
     @media (min-width: 1200px) {
-      padding: 1rem 8rem;
+      padding: 1rem 15rem;
     }
   }
 
@@ -226,12 +226,13 @@
   }
 
   .service-block {
-    padding-top: 5rem;
+    padding-top: 4rem;
 
     .service-wrapper {
       max-width: 90%;
       margin: auto;
       display: inline-block;
+      vertical-align: top;
 
       .service-icon {
         filter: brightness(0) invert(1);
@@ -247,6 +248,12 @@
       .service-wrapper {
         max-width: 30%;
       }
+    }
+  }
+
+  .contact-footer {
+
+    @media (min-width: 1000px) {
     }
   }
 }
@@ -358,4 +365,33 @@
       padding: 1em;
     }
   }
+}
+
+.center-text {
+  text-align: center;
+}
+
+.display-inline {
+  display: inline;
+}
+
+.center-right {
+  text-align: right;
+}
+
+.center-left {
+  text-align: left;
+}
+
+.desktop-padding-top {
+  padding-top: 0;
+
+  @media (min-width: 1000px) {
+    padding-top: 3rem!important;
+  }
+}
+
+.specialist-carousel {
+  width: 70%;
+  margin: auto;
 }
