@@ -54,6 +54,14 @@ a pristine home.</p>
  
  <SpecialistCleaning />
 
+<div>
+  <h2>Consumables</h2>
+  <p><strong>Janitorial supplies - </strong>Contact us about suppling any form of janitorial supply, we can deliver nationwide. </p>
+  <p><strong>Feminine hygiene services - </strong>Speak to us about your sanitary bins and vending machines without tying you into a long contract. 
+ </p>
+
+</div>
+
         <div className="contact-div">
           <hr />
           <div className="contact-title">

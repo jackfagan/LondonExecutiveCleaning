@@ -169,7 +169,7 @@
    .submit-btn {
       background-color: transparent;
       color: #d0ae66;
-      padding: 40px 100px;
+      padding: 20px 90px;
       text-decoration: none;
       margin: 1rem 0rem 0rem 0rem;
       cursor: pointer;
@@ -394,4 +394,45 @@
 .specialist-carousel {
   width: 70%;
   margin: auto;
+
+  
+  .flickity-prev-next-button {
+    top: 40%; 
+
+    @media (min-width: 1000px) {
+      top: 50%; 
+    }
+
+    &.previous {
+      left: -50px;
+
+      @media (min-width: 1000px) {
+        left: 10px;
+      }  
+    }
+
+    &.next {
+      right: -50px;
+
+      @media (min-width: 1000px) {
+        right: 10px
+      }  
+    }
+  }
+}
+
+.padding-x-eight {
+  padding: 0 0rem;
+
+  @media (min-width: 1000px) {
+    padding: 0 8rem;
+  }
+}
+
+.slider-item {
+  height: 325px;
+
+  @media (min-width: 1000px) {
+    height: 300px;
+  }
 }
