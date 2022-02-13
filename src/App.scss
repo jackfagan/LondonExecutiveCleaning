@@ -56,8 +56,7 @@
 .App-main-body {
   background-color: #323232;
   min-height: 100vh;
-  color: white;
-
+color: white;
   .about-us {
     padding: 1rem 0.5rem;
 
@@ -233,6 +232,7 @@
       margin: auto;
       display: inline-block;
       vertical-align: top;
+      // color: rgb(232, 193, 108);
 
       .service-icon {
         filter: brightness(0) invert(1);
@@ -395,6 +395,9 @@
   width: 70%;
   margin: auto;
 
+  .test  {
+    height: 150px;
+  }
   
   .flickity-prev-next-button {
     top: 40%; 

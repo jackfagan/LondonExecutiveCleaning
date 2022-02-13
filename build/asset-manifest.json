@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/LondonExecutiveCleaning/static/css/main.47fba443.chunk.css",
-    "main.js": "/LondonExecutiveCleaning/static/js/main.82f441a8.chunk.js",
-    "main.js.map": "/LondonExecutiveCleaning/static/js/main.82f441a8.chunk.js.map",
-    "runtime-main.js": "/LondonExecutiveCleaning/static/js/runtime-main.69515ff9.js",
-    "runtime-main.js.map": "/LondonExecutiveCleaning/static/js/runtime-main.69515ff9.js.map",
-    "static/js/2.a40ee425.chunk.js": "/LondonExecutiveCleaning/static/js/2.a40ee425.chunk.js",
-    "static/js/2.a40ee425.chunk.js.map": "/LondonExecutiveCleaning/static/js/2.a40ee425.chunk.js.map",
-    "static/js/3.c83fde1a.chunk.js": "/LondonExecutiveCleaning/static/js/3.c83fde1a.chunk.js",
-    "static/js/3.c83fde1a.chunk.js.map": "/LondonExecutiveCleaning/static/js/3.c83fde1a.chunk.js.map",
-    "index.html": "/LondonExecutiveCleaning/index.html",
-    "static/css/main.47fba443.chunk.css.map": "/LondonExecutiveCleaning/static/css/main.47fba443.chunk.css.map",
-    "static/js/2.a40ee425.chunk.js.LICENSE.txt": "/LondonExecutiveCleaning/static/js/2.a40ee425.chunk.js.LICENSE.txt",
-    "static/media/calendar.2fd75d1b.svg": "/LondonExecutiveCleaning/static/media/calendar.2fd75d1b.svg",
-    "static/media/App.scss": "/LondonExecutiveCleaning/static/media/cleaning-home.a6d53762.png",
-    "static/media/logo.bb9d16eb.PNG": "/LondonExecutiveCleaning/static/media/logo.bb9d16eb.PNG",
-    "static/media/rating.dfe1686e.svg": "/LondonExecutiveCleaning/static/media/rating.dfe1686e.svg",
-    "static/media/virus.8bb40686.svg": "/LondonExecutiveCleaning/static/media/virus.8bb40686.svg"
+    "main.css": "/static/css/main.ca084589.chunk.css",
+    "main.js": "/static/js/main.3528e8d8.chunk.js",
+    "main.js.map": "/static/js/main.3528e8d8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6e5f593b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6e5f593b.js.map",
+    "static/css/2.08715f13.chunk.css": "/static/css/2.08715f13.chunk.css",
+    "static/js/2.6c1ebd12.chunk.js": "/static/js/2.6c1ebd12.chunk.js",
+    "static/js/2.6c1ebd12.chunk.js.map": "/static/js/2.6c1ebd12.chunk.js.map",
+    "static/js/3.396cfeec.chunk.js": "/static/js/3.396cfeec.chunk.js",
+    "static/js/3.396cfeec.chunk.js.map": "/static/js/3.396cfeec.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.08715f13.chunk.css.map": "/static/css/2.08715f13.chunk.css.map",
+    "static/css/main.ca084589.chunk.css.map": "/static/css/main.ca084589.chunk.css.map",
+    "static/js/2.6c1ebd12.chunk.js.LICENSE.txt": "/static/js/2.6c1ebd12.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/cleaning-home.a6d53762.png",
+    "static/media/handshake.6727f896.png": "/static/media/handshake.6727f896.png",
+    "static/media/logo.bb9d16eb.PNG": "/static/media/logo.bb9d16eb.PNG",
+    "static/media/office-two.404c2489.svg": "/static/media/office-two.404c2489.svg",
+    "static/media/school.c314a851.png": "/static/media/school.c314a851.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.69515ff9.js",
-    "static/js/2.a40ee425.chunk.js",
-    "static/css/main.47fba443.chunk.css",
-    "static/js/main.82f441a8.chunk.js"
+    "static/js/runtime-main.6e5f593b.js",
+    "static/css/2.08715f13.chunk.css",
+    "static/js/2.6c1ebd12.chunk.js",
+    "static/css/main.ca084589.chunk.css",
+    "static/js/main.3528e8d8.chunk.js"
   ]
 }

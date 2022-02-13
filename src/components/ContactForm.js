@@ -53,7 +53,7 @@ class ContactForm extends Component {
         subject: subject,
         message: message,
       };
-      emailjs.send('service_efgvl7m', 'template_hb1dv4b', templateParams, 'user_hPRLmapB4SAjTHf4l51O5');
+      emailjs.send('service_cmtdixa', 'template_hb1dv4b', templateParams, 'user_hPRLmapB4SAjTHf4l51O5');
 
       console.log(`
         --SUBMITTING--
