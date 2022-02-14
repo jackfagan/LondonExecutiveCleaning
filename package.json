@@ -1,6 +1,6 @@
 {
-  "name": "london-exec-cleaning",
-  "version": "0.1.0",
+  "name": "eslint-plugin-local-rules",
+  "version": "2.2.1",
   "private": true,
   "homepage": "https://www.londonexecutivecleaning.com",
   "dependencies": {
@@ -45,5 +45,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "LondonExecutiveCleaning",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackfagan/LondonExecutiveCleaning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackfagan/LondonExecutiveCleaning/issues"
   }
 }
