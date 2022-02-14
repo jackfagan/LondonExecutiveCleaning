@@ -396,7 +396,10 @@ color: white;
   margin: auto;
 
   .test  {
+    height: 225px; 
+    @media (min-width: 1000px) {
     height: 150px;
+    }
   }
   
   .flickity-prev-next-button {
