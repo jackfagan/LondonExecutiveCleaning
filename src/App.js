@@ -73,11 +73,11 @@ a pristine home.</p>
           <hr />
           <br />
           <div className="contact-footer">
-            <p className="center-left display-inline">VAT number 397 8317 38 - </p>
-            <p className="center-right display-inline">Company number 12563540 </p>
-            <a href="https://instagram.com/londonexecutivecleaning?utm_medium=copy_link">
+          <a href="https://instagram.com/londonexecutivecleaning?utm_medium=copy_link">
               <img className="social-icon" src={instagram} />
             </a>
+            <p className="center-left display-inline">VAT number 397 8317 38 - </p>
+            <p className="center-right display-inline">Company number 12563540 </p>
           </div>
           <br />
           <br />
