@@ -6,6 +6,7 @@ import handshake from './images/handshake.png';
 import ContactForm from './components/ContactForm';
 import SpecialistCleaning from './components/SpecialistCleaning';
 import instagram from './images/instagram.svg';
+import phone from './images/phone.png';
 
 function App() {
   return (
@@ -73,9 +74,14 @@ a pristine home.</p>
           <hr />
           <br />
           <div className="contact-footer">
+            <div className="social-icons">
           <a href="https://instagram.com/londonexecutivecleaning?utm_medium=copy_link">
               <img className="social-icon" src={instagram} />
             </a>
+            <a href="tel:07720616834">
+              <img className="social-icon" src={phone} />
+            </a>
+            </div>
             <p className="center-left display-inline">VAT number 397 8317 38 - </p>
             <p className="center-right display-inline">Company number 12563540 </p>
           </div>
